@@ -1,0 +1,44 @@
+{
+    "model": {
+        "type": "feature_v2",
+        "input_size": 2048,
+        "feat_in": 256,
+        "mapping_out": 256,
+        "mapping_cond_dim": 512,
+        "has_variance": false,
+        "sigma_data": 0.6162,
+        "sigma_min": 1e-2,
+        "sigma_max": 1,
+        "sigma_sample_density": {
+            "type": "lognormal",
+            "mean": -1.2,
+            "std": 1.2
+        },
+        "sampler": "lms"
+    },
+    "dataset": {
+        "name":"shanghai",
+        "feat_type": "data",
+        "cond_type": "dyn",
+        "feat_model": "r3d18",
+        "cond_model": "res18"
+    },
+    "optimizer": {
+        "type": "adamw",
+        "lr": 2e-5,
+        "betas": [0.95, 0.999],
+        "eps": 1e-6,
+        "weight_decay": 1e-4
+    },
+    "lr_sched": {
+        "type": "inverse",
+        "inv_gamma": 20000.0,
+        "power": 1.0,
+        "warmup": 0.99
+    },
+    "ema_sched": {
+        "type": "inverse",
+        "power": 0.6667,
+        "max_value": 0.9999
+    }
+}

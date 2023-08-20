@@ -1,0 +1,8 @@
+# Default ignored files
+*.pyc
+*loss.csv
+*metrics.csv
+*.csv_old
+*state.json
+*shanghai.csv
+*UCFC.csv
