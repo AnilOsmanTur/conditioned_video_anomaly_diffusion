@@ -37,7 +37,7 @@ Please use the following BibTeX entry for citation.
 
 ```latex
 
-@InProceedings{tur2023exploring,
+@InProceedings{tur2023unsupervised,
   title = {Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations},
   author = {Tur, Anil Osman and Dall'Asen, Nicola and Beyan, Cigdem and Ricci, Elisa},
   booktitle={2023 International Conference on Image Analysis and Processing },
