@@ -3,7 +3,7 @@
 ![brief](docs/brief.png)
 
 
-> [**Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations**](http://arxiv.org/abs/2307.01533)<br>
+> [**Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations**](https://doi.org/10.1007/978-3-031-43153-1_5)<br>
 > [Anil Osman Tur](https://scholar.google.com/citations?user=W4yNf8UAAAAJ), [Nicola Dall'Asen](https://scholar.google.com/citations?user=e7lgiYYAAAAJ), [Cigdem Beyan](https://scholar.google.com/citations?user=VmjUxckAAAAJ), [Elisa Ricci](https://scholar.google.com/citations?user=xf1T870AAAAJ)<br>
 > University of Trento, Fondazione Bruno Kessler, Trento, Italy, <br>
 
@@ -38,18 +38,15 @@ Please use the following BibTeX entry for citation.
 ```latex
 
 @InProceedings{tur2023unsupervised,
-  title = {Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations},
-  author = {Tur, Anil Osman and Dall'Asen, Nicola and Beyan, Cigdem and Ricci, Elisa},
-  booktitle={2023 International Conference on Image Analysis and Processing },
-  year={2023}
+author="Tur, Anil Osman and Dall'Asen, Nicola and Beyan, Cigdem and Ricci, Elisa",
+editor="Foresti, Gian Luca and Fusiello, Andrea and Hancock, Edwin",
+title="Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations",
+booktitle="Image Analysis and Processing -- ICIAP 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="49--62",
+isbn="978-3-031-43153-1"
 }
-
-@article{tur2023unsupervised,
-  title={Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations},
-  author={Tur, Anil Osman and Dall'Asen, Nicola and Beyan, Cigdem and Ricci, Elisa},
-  journal={arXiv preprint arXiv:2307.01533},
-  year={2023}
-}
-
 
 ```
